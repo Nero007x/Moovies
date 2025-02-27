@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#2196F3",
+      "height": 60,
+      "justifyContent": "center",
+      "paddingTop": 15,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "white",
+        "fontSize": 20,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Movies List
+  </Text>
+</View>
+`;

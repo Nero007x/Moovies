@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders MovieDetails correctly with sample data 1`] = `
+<RCTScrollView
+  style={
+    {
+      "flex": 1,
+      "padding": 10,
+    }
+  }
+>
+  <View>
+    <Image
+      source={
+        {
+          "uri": "https://image.tmdb.org/t/p/w500/poster.jpg",
+        }
+      }
+      style={
+        {
+          "height": 400,
+          "resizeMode": "contain",
+          "width": "100%",
+        }
+      }
+    />
+    <Text
+      style={
+        {
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "marginVertical": 10,
+        }
+      }
+    >
+      Test Movie
+    </Text>
+    <Text
+      style={
+        {
+          "fontSize": 16,
+          "marginVertical": 10,
+        }
+      }
+    >
+      This is a test movie overview.
+    </Text>
+    <Text
+      style={
+        {
+          "fontSize": 16,
+          "marginVertical": 5,
+        }
+      }
+    >
+      Release Date: 
+      2024-06-12
+    </Text>
+    <Text
+      style={
+        {
+          "fontSize": 16,
+          "marginVertical": 5,
+        }
+      }
+    >
+      Rating: 
+      8.5
+       / 10
+    </Text>
+  </View>
+</RCTScrollView>
+`;

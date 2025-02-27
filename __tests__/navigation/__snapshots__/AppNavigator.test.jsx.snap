@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppNavigator matches the snapshot 1`] = `
+<StackNavigator>
+  <Screen
+    component="HomeScreen"
+    name="Home"
+  />
+  <Screen
+    component="MovieDetails"
+    name="MovieDetails"
+  />
+</StackNavigator>
+`;
